@@ -1,0 +1,33 @@
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-list {
+    margin: 0 15px 0;
+}
+
+.nav-list a {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.card-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-header p:hover {
+    color: crimson;
+}
+
+.card-header button:hover {
+    background-color: limegreen;
+    color: orange;
+    font-weight: bold;
+}
