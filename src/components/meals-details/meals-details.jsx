@@ -88,7 +88,7 @@ const MealDetails = function () {
                                                     <TableRow>
                                                         <TableCell align="center">Watch on Youtube</TableCell>
                                                         <TableCell align="center">
-                                                            {(meal.strYoutube !== null) ? 
+                                                            {(meal.strYoutube !== "") ? 
                                                             <a href={meal.strYoutube} target="_blank" rel="noopener noreferrer">
                                                                     Click Here
                                                             </a>
